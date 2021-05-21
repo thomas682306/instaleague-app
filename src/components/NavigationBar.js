@@ -7,7 +7,7 @@ function NavigationBar() {
   return (
     <Navbar sticky="top" bg="light" expand="lg">
       <Navbar.Brand>
-        <Link to="/home">
+        <Link to="/">
           <img src={Logo} height="50px" />
         </Link>
       </Navbar.Brand>
