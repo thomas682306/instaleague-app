@@ -7,7 +7,7 @@ function NavigationBar() {
   return (
     <Navbar sticky="top" bg="light" expand="lg">
       <Navbar.Brand>
-        <Link to="/home">
+        <Link to="/">
           <img src={Logo} height="50px" />
         </Link>
       </Navbar.Brand>
@@ -18,7 +18,7 @@ function NavigationBar() {
             <Link to="/tournaments">Tournaments</Link>
           </Nav.Link>
           <Nav.Link>
-            <Link to="/about_us">About Us</Link>
+            <Link to="/about-us">About Us</Link>
           </Nav.Link>
           <Nav.Link>
             <Link to="/sign_up">Sign Up</Link>

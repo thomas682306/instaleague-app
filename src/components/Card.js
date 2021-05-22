@@ -4,6 +4,7 @@ import CardItem from "./CardItem";
 import pic9 from "../images/jogo.jpeg";
 import pic8 from "../images/gametown.jpg";
 import pic7 from "../images/usc.jpg";
+import pic5 from "../images/clubt.jpg";
 
 import pic6 from "../images/turfpark.jpg";
 
@@ -35,8 +36,14 @@ function Cards() {
               path="/services"
             />
             <CardItem
+              src={pic5}
+              text="Host of Season 4"
+              label="Turf Park"
+              path="/products"
+            />
+            <CardItem
               src={pic6}
-              text="Host of Season 4 & 5"
+              text="Host of Season 6"
               label="Turf Park"
               path="/products"
             />
