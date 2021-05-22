@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 import NavigationBar from "./components/NavigationBar";
 import Home from "./components/pages/Home";
+import Tournaments from "./components/pages/Tournaments";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <NavigationBar />
         <Switch>
           <Route path="/" exact component={Home} />
+          <Route path="/tournaments" exact component={Tournaments} />
         </Switch>
       </Router>
     </div>
