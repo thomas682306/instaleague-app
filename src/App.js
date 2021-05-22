@@ -7,7 +7,7 @@ import {
 } from "react-router-dom";
 import NavigationBar from "./components/NavigationBar";
 import Home from "./components/pages/Home";
-import aboutUs from "./components/pages/AboutUs/aboutUs";
+import aboutUs from "./components/pages/aboutUs";
 
 function App() {
   return (

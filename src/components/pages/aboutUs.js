@@ -1,9 +1,9 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card'
-import Footer from "../../Footer";
+import Footer from "../Footer";
 import "./aboutUs.css"
 
-import eldho_pic from '../../../images/eldho_pic.JPG'
+import eldho_pic from '../../images/eldho_pic.JPG'
 
 function aboutUs() {
     return (
