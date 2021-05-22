@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 import NavigationBar from "./components/NavigationBar";
 import Home from "./components/pages/Home";
+import Real from "./components/pages/SignUp/real"
 
 import aboutUs from "./components/pages/aboutUs";
 
@@ -19,11 +20,15 @@ function App() {
       <Router>
         <NavigationBar />
         <Switch>
+
+          <Route path="/sign_up" exact component={Real} />
+
           <Route path="/" exact component={Home} />
 
           <Route path="/about-us" exact component={aboutUs} />
 
           <Route path="/tournaments" exact component={Tournaments} />
+
 
         </Switch>
       </Router>
