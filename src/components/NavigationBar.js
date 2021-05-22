@@ -18,7 +18,7 @@ function NavigationBar() {
             <Link to="/tournaments">Tournaments</Link>
           </Nav.Link>
           <Nav.Link>
-            <Link to="/about_us">About Us</Link>
+            <Link to="/about-us">About Us</Link>
           </Nav.Link>
           <Nav.Link>
             <Link to="/sign_up">Sign Up</Link>
